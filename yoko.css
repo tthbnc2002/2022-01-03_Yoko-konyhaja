@@ -24,15 +24,18 @@ nav, footer {
 	color: #ffffff;
 	background-color: #aeaca8;
 	height: 30px;
+   
 }
 
 nav ul {
 	margin: 0px;
 	padding: 5px 0px 5px 30px;
+    
 }
 
 nav li {
 	margin-right: 40px;
+     display: inline-block;
 }
 
 nav li a {
@@ -53,6 +56,7 @@ article {
 	clear: both;
 	overflow: auto;
 	width: 98%;
+    
 }
 
 hgroup {
@@ -113,4 +117,23 @@ section.contpage {
 .home {
 	text-align: center;
 	font-size: 20px;
+}
+
+header{
+    height: 200px;
+}
+article p{
+    text-align: justify;
+}
+aside{
+    width: 230px;
+    margin-left: 20px;
+    float: right;
+}
+aside a{
+    color: #de6581;
+    text-decoration: none;
+}
+h1,h2,h3{
+    font-weight: normal;
 }
